@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	font-variant-numeric: lining-nums;
+	color: rgba(71, 71, 71, 1);
 }
 
 body {
@@ -23,4 +25,28 @@ a {
 	max-width: 1400px;
 	margin: 0 auto;
 	padding: 0 20px;
+}
+
+h2 {
+	color: rgba(71, 71, 71, 1);
+	font-weight: 900;
+	font-size: 37px;
+	line-height: 43px;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+h3 {
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 17px;
+	color: #009ed0;
+}
+
+ul {
+	padding-inline-start: 15px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
 }

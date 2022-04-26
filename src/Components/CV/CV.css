@@ -1,0 +1,107 @@
+.cv-wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cv-box {
+	background: #ffffff;
+	box-shadow: 0px 0px 31px -13px rgba(0, 0, 0, 0.25);
+	border-radius: 37px;
+	padding: 45px 50px;
+}
+
+.experience {
+	/* flex-basis: 57%; */
+}
+
+.skills {
+	/* flex-basis: 40%; */
+}
+
+.education {
+	/* margin-top: 3vw; */
+	/* height: 300px; */
+	/* flex-basis: 57%; */
+}
+
+.education-wrap {
+	display: flex;
+	flex-direction: row;
+}
+
+.workplace-wrap {
+	display: flex;
+	flex-direction: row;
+}
+
+.workplace-wrap:first-of-type {
+	margin-bottom: 40px;
+}
+
+.workplace-date {
+	flex-shrink: 0;
+	flex-basis: 35%;
+}
+
+.workplace-date-year {
+	display: block;
+	font-weight: 700;
+	font-size: 17px;
+	color: #009ed0;
+	margin-bottom: 5px;
+}
+
+.workplace-date-employer {
+	display: block;
+	font-weight: 700;
+	font-size: 12px;
+	color: #009ed0;
+}
+
+.workplace-point {
+	margin-bottom: 15px;
+}
+
+.skills-wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.skills-skill {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+
+.skills-skill span {
+	display: block;
+}
+
+.skills-name {
+	font-weight: 700;
+	font-size: 17px;
+	color: #009ed0;
+	flex-basis: 20%;
+	flex-shrink: 0;
+	margin-right: 60px;
+}
+
+.my-masonry-grid {
+	display: -webkit-box; /* Not needed if autoprefixing */
+	display: -ms-flexbox; /* Not needed if autoprefixing */
+	display: flex;
+	margin-left: -30px; /* gutter size offset */
+	width: auto;
+}
+.my-masonry-grid_column {
+	padding-left: 30px; /* gutter size */
+	background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+	/* change div to reference your elements you put in <Masonry> */
+	margin-bottom: 30px;
+}
